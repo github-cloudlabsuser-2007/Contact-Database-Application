@@ -1,12 +1,63 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "name": {
+        "subscriptionId": {
+            "value": "6cacffbd-e039-4204-99f9-bf410d29af39"
+        },
+        "resourceGroupName": {
             "value": "GitHub-Copilot-Challenges"
+        },
+        "name": {
+            "value": "github-copilet-cha"
         },
         "location": {
             "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-GitHubCopilotChallenges-aef8"
+        },
+        "serverFarmResourceGroup": {
+            "value": "GitHub-Copilot-Challenges"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v8.0"
+        },
+        "repoUrl": {
+            "value": "https://github.com/github-cloudlabsuser-2007/Contact-Database-Application"
+        },
+        "branch": {
+            "value": "master"
+        },
+        "oidcUserIdentityName": {
+            "value": "github-copilet-c-id-974c"
         }
     }
 }
