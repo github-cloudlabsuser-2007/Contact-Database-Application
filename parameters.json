@@ -9,13 +9,13 @@
             "value": "GitHub-Copilot-Challenges"
         },
         "name": {
-            "value": "github-copilet-cha"
+            "value": "gh-cp-ch"
         },
         "location": {
             "value": "East US"
         },
         "hostingPlanName": {
-            "value": "ASP-GitHubCopilotChallenges-aef8"
+            "value": "ASP-GitHubCopilotChallenges-bbc0"
         },
         "serverFarmResourceGroup": {
             "value": "GitHub-Copilot-Challenges"
@@ -48,7 +48,7 @@
             "value": "OFF"
         },
         "netFrameworkVersion": {
-            "value": "v8.0"
+            "value": "v4.0"
         },
         "repoUrl": {
             "value": "https://github.com/github-cloudlabsuser-2007/Contact-Database-Application"
@@ -57,7 +57,7 @@
             "value": "master"
         },
         "oidcUserIdentityName": {
-            "value": "github-copilet-c-id-974c"
+            "value": "gh-cp-ch-id-b832"
         }
     }
 }
